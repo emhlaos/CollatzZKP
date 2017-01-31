@@ -2,7 +2,7 @@
 #' @name systemproof
 #' @import Rmpfr
 #' @export
-systemproof.default <-function(C,systems, current, check){
+systemproof <-function(C,systems, current, check){
   if (!requireNamespace("Rmpfr", quietly = TRUE)) {
     stop("Rmpfr needed for this function to work. Please install it.",
          call. = FALSE)
