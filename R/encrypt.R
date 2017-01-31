@@ -2,7 +2,7 @@
 #' @name encrypt
 #' @import Rmpfr
 #' @export
-encrypt.default <-function(code, systems, current){
+encrypt <-function(code, systems, current){
   if (!requireNamespace("Rmpfr", quietly = TRUE)) {
     stop("Rmpfr needed for this function to work. Please install it.",
          call. = FALSE)
