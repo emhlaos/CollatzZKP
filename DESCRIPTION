@@ -1,11 +1,11 @@
 Package: CollatzZKP
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Encryption tools using the Collatz sequence
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Emiliano Hernandez Laos
+Maintainer: emhlaos@gmail.com
+Description: Set of functions to build a zero knwledge proof based in the Collatz Sequence.
+             Documentation available soon.
+License: MIT - non sublicence and/or sell - licence
 Encoding: UTF-8
 LazyData: true
